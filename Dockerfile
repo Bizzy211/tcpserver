@@ -1,6 +1,7 @@
 # Base image
 #FROM python
-FROM python:3.8.0-slim
+#FROM python:3.8.0-slim
+FROM debian:buster-slim
 
 # Install dependencies
 COPY 'requirements.txt' '/tcpserver/requirements.txt'
