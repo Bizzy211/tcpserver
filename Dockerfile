@@ -1,6 +1,6 @@
 # Base image
-FROM python
-
+#FROM python
+FROM python:3.8.0-slim
 
 # Install dependencies
 COPY 'requirements.txt' '/tcpserver/requirements.txt'
