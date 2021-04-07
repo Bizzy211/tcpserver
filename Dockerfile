@@ -1,5 +1,5 @@
 # Base image
-FROM python
+FROM python:3.9.4-slim-buster
 
 
 # Install dependencies
