@@ -1,5 +1,5 @@
 # Base image
-FROM python-rc-slim
+FROM python
 
 
 # Install dependencies
